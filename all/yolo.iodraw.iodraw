@@ -55,6 +55,9 @@
         <mxCell id="zawNHpp7m9UEDPrYz0f3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zawNHpp7m9UEDPrYz0f3-12" target="zawNHpp7m9UEDPrYz0f3-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="sXhtGJ7snverk7NbP2yU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zawNHpp7m9UEDPrYz0f3-12" target="sXhtGJ7snverk7NbP2yU-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zawNHpp7m9UEDPrYz0f3-12" value="C2f" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="580" width="90" height="40" as="geometry" />
         </mxCell>
@@ -80,7 +83,7 @@
           <mxGeometry x="260" y="500" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sXhtGJ7snverk7NbP2yU-12" value="Upsample" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="660" width="90" height="40" as="geometry" />
+          <mxGeometry x="260" y="680" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
