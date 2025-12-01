@@ -184,8 +184,14 @@
         <mxCell id="sXhtGJ7snverk7NbP2yU-39" value="C2f" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="900" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXhtGJ7snverk7NbP2yU-47" value="Conv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="510" width="90" height="40" as="geometry" />
+        <mxCell id="sXhtGJ7snverk7NbP2yU-47" value="Detect" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXhtGJ7snverk7NbP2yU-48" value="Conv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="660" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXhtGJ7snverk7NbP2yU-49" value="Conv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="900" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
