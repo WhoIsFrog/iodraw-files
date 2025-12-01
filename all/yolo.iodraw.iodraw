@@ -187,8 +187,11 @@
         <mxCell id="sXhtGJ7snverk7NbP2yU-107" value="C2f" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="460" y="2150" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="sXhtGJ7snverk7NbP2yU-252" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sXhtGJ7snverk7NbP2yU-108" target="sXhtGJ7snverk7NbP2yU-251">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sXhtGJ7snverk7NbP2yU-108" value="Detect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1500" width="90" height="40" as="geometry" />
+          <mxGeometry x="688.75" y="1480" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sXhtGJ7snverk7NbP2yU-109" value="Detect" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="690" y="1790" width="90" height="40" as="geometry" />
@@ -607,6 +610,9 @@
         </mxCell>
         <mxCell id="sXhtGJ7snverk7NbP2yU-250" value="1️⃣StripAttn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" vertex="1" parent="1">
           <mxGeometry x="572.5" y="2150" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sXhtGJ7snverk7NbP2yU-251" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="503.75" y="1470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
