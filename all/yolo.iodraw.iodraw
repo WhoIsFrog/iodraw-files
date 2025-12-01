@@ -67,8 +67,8 @@
         <mxCell id="zawNHpp7m9UEDPrYz0f3-16" value="C2f" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="740" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXhtGJ7snverk7NbP2yU-8" value="C2f" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="750" width="90" height="40" as="geometry" />
+        <mxCell id="sXhtGJ7snverk7NbP2yU-8" value="SPPF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="61.25" y="820" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
