@@ -636,8 +636,8 @@
         <mxCell id="sXhtGJ7snverk7NbP2yU-267" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;21&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="450" y="2150" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="sXhtGJ7snverk7NbP2yU-269" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;p1&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="157.5" y="1240" width="50" height="40" as="geometry" />
+        <mxCell id="sXhtGJ7snverk7NbP2yU-269" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;p1/2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="1240" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sXhtGJ7snverk7NbP2yU-271" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;p2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="157.5" y="1320" width="50" height="40" as="geometry" />
