@@ -31,6 +31,15 @@
         <mxCell id="zawNHpp7m9UEDPrYz0f3-8" value="C2f" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="420" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="zawNHpp7m9UEDPrYz0f3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zawNHpp7m9UEDPrYz0f3-11" target="zawNHpp7m9UEDPrYz0f3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zawNHpp7m9UEDPrYz0f3-11" value="Conv" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zawNHpp7m9UEDPrYz0f3-12" value="C2f" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="430" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
