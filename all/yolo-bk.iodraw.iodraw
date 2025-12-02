@@ -195,7 +195,7 @@
           <mxGeometry x="560" y="1880" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sXhtGJ7snverk7NbP2yU-247" value="3️⃣&lt;span style=&quot;background-color: initial;&quot;&gt;StripAttn&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6d0de;gradientColor=#d5739d;strokeColor=#996185;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1558" width="90" height="40" as="geometry" />
+          <mxGeometry x="540" y="1558" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sXhtGJ7snverk7NbP2yU-259" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;6&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="83.75" y="1708" width="30" height="40" as="geometry" />
@@ -547,7 +547,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mkBJkuxEQLKxNRHmnYrr-27" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;p2/4&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="37.5" y="1318" width="60" height="40" as="geometry" />
+          <mxGeometry x="730" y="1180" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
