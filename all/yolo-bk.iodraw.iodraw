@@ -563,6 +563,9 @@
         <mxCell id="BmEdmm0T5amRLMjJM0u9-5" value="裂缝模型推理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1210" y="2490.12" width="100" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="BmEdmm0T5amRLMjJM0u9-6" value="裂缝模型推理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2490.12" width="100" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
