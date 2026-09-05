@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram id="samroadplus-inference-v2" name="Inference flow · routed">
-    <mxGraphModel dx="1372" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1960" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="590" y="170" width="650" height="1170" as="geometry" />
         </mxCell>
         <mxCell id="g3" value="03 · YOLO11Encoder 多尺度融合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fillOpacity=55;strokeColor=#14b8a6;fontColor=#1e3a5f;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=14;spacingTop=10;dashed=1;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="170" width="720" height="850" as="geometry" />
+          <mxGeometry x="1270" y="170" width="720" height="850" as="geometry" />
         </mxCell>
         <mxCell id="g4" value="04 · 自定义掩码 / 图拓扑推理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fillOpacity=55;strokeColor=#f59e0b;fontColor=#1e3a5f;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=14;spacingTop=10;dashed=1;pointerEvents=0;" parent="1" vertex="1">
           <mxGeometry x="2020" y="160" width="1180" height="933" as="geometry" />
