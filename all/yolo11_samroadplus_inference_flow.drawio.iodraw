@@ -104,7 +104,7 @@
           <mxGeometry x="1330" y="1215" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="fuse" value="&lt;b&gt;YOLO11Encoder feature_fuse&lt;/b&gt;&lt;br&gt;cat 64+128+256=448 → Conv1×1 448→256 → BN → SiLU&lt;br&gt;&lt;font color=&quot;#134e4a&quot;&gt;image_embeddings [B,256,64,64]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="1650" y="1040" width="310" height="86" as="geometry" />
+          <mxGeometry x="1670" y="891" width="310" height="86" as="geometry" />
         </mxCell>
         <mxCell id="decoder" value="&lt;b&gt;map_decoder&lt;/b&gt;&lt;br&gt;TConv 256→128 → LN + GELU · TConv 128→64 → GELU · Conv 64→2&lt;br&gt;&lt;font color=&quot;#581c87&quot;&gt;mask_logits [B,2,256,256]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9333ea;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="2310" y="620" width="330" height="86" as="geometry" />
