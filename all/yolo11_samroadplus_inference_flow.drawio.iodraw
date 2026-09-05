@@ -244,23 +244,24 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1200" y="649" />
-              <mxPoint x="1280" y="591" />
+              <mxPoint x="1445" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_19_b" value="Feature B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#0f766e;strokeWidth=3;fontColor=#0f766e;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="l19" target="embedB" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240.06" y="934" />
-              <mxPoint x="1240.06" y="731.06" />
+              <mxPoint x="1240" y="934" />
+              <mxPoint x="1240" y="930" />
+              <mxPoint x="1445" y="930" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_22_c" value="Feature C" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#0f766e;strokeWidth=3;fontColor=#0f766e;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="l22" target="embedC" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1260.06" y="1249.06" />
-              <mxPoint x="1260.06" y="871.06" />
+              <mxPoint x="1340" y="1250" />
+              <mxPoint x="1340" y="1250" />
             </Array>
           </mxGeometry>
         </mxCell>
