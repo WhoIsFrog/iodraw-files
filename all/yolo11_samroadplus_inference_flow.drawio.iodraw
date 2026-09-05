@@ -98,7 +98,7 @@
           <mxGeometry x="1320" y="618" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="embedB" value="&lt;b&gt;L19 对齐到 1/8&lt;/b&gt;&lt;br&gt;bilinear ×2 · [B,128,64,64]&lt;br&gt;&lt;font color=&quot;#134e4a&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="1350" y="914" width="250" height="62" as="geometry" />
+          <mxGeometry x="1320" y="900" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="embedC" value="&lt;b&gt;L22 对齐到 1/8&lt;/b&gt;&lt;br&gt;bilinear ×4 · [B,256,64,64]&lt;br&gt;&lt;font color=&quot;#134e4a&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="1320" y="1190" width="250" height="62" as="geometry" />
@@ -251,8 +251,8 @@
         <mxCell id="e_19_b" value="Feature B" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#0f766e;strokeWidth=3;fontColor=#0f766e;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="l19" target="embedB" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1240" y="934" />
-              <mxPoint x="1240" y="940" />
+              <mxPoint x="1290" y="934" />
+              <mxPoint x="1290" y="934" />
             </Array>
           </mxGeometry>
         </mxCell>
