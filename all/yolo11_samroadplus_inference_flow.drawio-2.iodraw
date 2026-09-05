@@ -310,7 +310,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pnl_68" value="YOLO11Encoder 融合 → SAM 风格 embedding&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#6d8db0&quot;&gt;L16/L19/L22 对齐到 1/8 → cat → feature_fuse(Conv1×1+BN+SiLU)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3f5a80;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=4;fontColor=#d6e6fb;fontSize=13;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="1484" y="640" width="522" height="766" as="geometry" />
+          <mxGeometry x="1720" y="674" width="522" height="766" as="geometry" />
         </mxCell>
         <mxCell id="pnl_69" value="掩码头 map_decoder · model.py (USE_SAM_DECODER=False)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3f5a80;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=4;fontColor=#d6e6fb;fontSize=13;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="1484" y="1400" width="522" height="480" as="geometry" />
