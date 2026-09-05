@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram id="samroadplus-inference-v2" name="Inference flow · routed">
-    <mxGraphModel dx="5488" dy="2924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1960" dy="1044" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,10 @@
           <mxGeometry x="590" y="170" width="650" height="1170" as="geometry" />
         </mxCell>
         <mxCell id="g3" value="03 · YOLO11Encoder 多尺度融合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fillOpacity=55;strokeColor=#14b8a6;fontColor=#1e3a5f;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=14;spacingTop=10;dashed=1;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="550" width="720" height="850" as="geometry" />
+          <mxGeometry x="1270" y="520" width="720" height="850" as="geometry" />
         </mxCell>
         <mxCell id="g4" value="04 · 自定义掩码 / 图拓扑推理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;fillOpacity=55;strokeColor=#f59e0b;fontColor=#1e3a5f;fontSize=14;fontStyle=1;align=left;verticalAlign=top;spacingLeft=14;spacingTop=10;dashed=1;pointerEvents=0;" parent="1" vertex="1">
-          <mxGeometry x="2220" y="540" width="1180" height="933" as="geometry" />
+          <mxGeometry x="2020" y="510" width="1180" height="933" as="geometry" />
         </mxCell>
         <mxCell id="l0" value="&lt;b&gt;L0 · Conv&lt;/b&gt;&lt;br&gt;3→16 · k3/s2&lt;br&gt;&lt;font color=&quot;#102a52&quot;&gt;[B,16,256,256]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
           <mxGeometry x="250" y="300" width="240" height="68" as="geometry" />
@@ -95,40 +95,40 @@
           <mxGeometry x="70" y="245" width="240" height="68" as="geometry" />
         </mxCell>
         <mxCell id="embedA" value="&lt;b&gt;L16 对齐到 1/8&lt;/b&gt;&lt;br&gt;不插值 · [B,64,64,64]&lt;br&gt;&lt;font color=&quot;#134e4a&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="1520" y="940" width="250" height="62" as="geometry" />
+          <mxGeometry x="1320" y="910" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="embedB" value="&lt;b&gt;L19 对齐到 1/8&lt;/b&gt;&lt;br&gt;bilinear ×2 · [B,128,64,64]&lt;br&gt;&lt;font color=&quot;#134e4a&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="1520" y="1080" width="250" height="62" as="geometry" />
+          <mxGeometry x="1320" y="1050" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="embedC" value="&lt;b&gt;L22 对齐到 1/8&lt;/b&gt;&lt;br&gt;bilinear ×4 · [B,256,64,64]&lt;br&gt;&lt;font color=&quot;#134e4a&quot;&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="1520" y="1220" width="250" height="62" as="geometry" />
+          <mxGeometry x="1320" y="1190" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="fuse" value="&lt;b&gt;YOLO11Encoder feature_fuse&lt;/b&gt;&lt;br&gt;cat 64+128+256=448 → Conv1×1 448→256 → BN → SiLU&lt;br&gt;&lt;font color=&quot;#134e4a&quot;&gt;image_embeddings [B,256,64,64]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ccfbf1;strokeColor=#0f766e;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="1850" y="1070" width="310" height="86" as="geometry" />
+          <mxGeometry x="1650" y="1040" width="310" height="86" as="geometry" />
         </mxCell>
         <mxCell id="decoder" value="&lt;b&gt;map_decoder&lt;/b&gt;&lt;br&gt;TConv 256→128 → LN + GELU · TConv 128→64 → GELU · Conv 64→2&lt;br&gt;&lt;font color=&quot;#581c87&quot;&gt;mask_logits [B,2,256,256]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9333ea;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="2510" y="650" width="330" height="86" as="geometry" />
+          <mxGeometry x="2310" y="620" width="330" height="86" as="geometry" />
         </mxCell>
         <mxCell id="mask" value="&lt;b&gt;上采样 + sigmoid + BHWC&lt;/b&gt;&lt;br&gt;bilinear to 512×512 · ch0 keypoint · ch1 road&lt;br&gt;&lt;font color=&quot;#581c87&quot;&gt;mask_scores [B,512,512,2]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#9333ea;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="2510" y="800" width="330" height="72" as="geometry" />
+          <mxGeometry x="2310" y="770" width="330" height="72" as="geometry" />
         </mxCell>
         <mxCell id="maskout" value="&lt;b&gt;输出 ① 推理掩码&lt;/b&gt;&lt;br&gt;infer_masks_and_img_features(rgb)&lt;br&gt;&lt;font color=&quot;#78350f&quot;&gt;mask_scores (BHWC)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="3010" y="800" width="280" height="72" as="geometry" />
+          <mxGeometry x="2810" y="770" width="280" height="72" as="geometry" />
         </mxCell>
         <mxCell id="graph" value="&lt;b&gt;graph_points&lt;/b&gt;&lt;br&gt;XY pixel coordinates&lt;br&gt;&lt;font color=&quot;#7c2d12&quot;&gt;[B,Np,2]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="2250" y="1168" width="220" height="62" as="geometry" />
+          <mxGeometry x="2050" y="1138" width="220" height="62" as="geometry" />
         </mxCell>
         <mxCell id="pairs" value="&lt;b&gt;pairs + valid&lt;/b&gt;&lt;br&gt;candidate edges + padding mask&lt;br&gt;&lt;font color=&quot;#7c2d12&quot;&gt;[B,Ns,Npairs,2]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="2240" y="1328" width="220" height="62" as="geometry" />
+          <mxGeometry x="2040" y="1298" width="220" height="62" as="geometry" />
         </mxCell>
         <mxCell id="sampler" value="&lt;b&gt;BilinearSampler&lt;/b&gt;&lt;br&gt;mask peak → newpoint · embedding grid_sample&lt;br&gt;&lt;font color=&quot;#7c2d12&quot;&gt;point features [Np,256] ×2&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="2630" y="1160" width="320" height="78" as="geometry" />
+          <mxGeometry x="2430" y="1130" width="320" height="78" as="geometry" />
         </mxCell>
         <mxCell id="toponet" value="&lt;b&gt;TopoNet&lt;/b&gt;&lt;br&gt;feature_proj 256→128 · pair_proj 408→128 · TransformerEncoder ×3&lt;br&gt;&lt;font color=&quot;#7c2d12&quot;&gt;topo_logits [B,Ns,Npairs,1]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="2630" y="1320" width="320" height="78" as="geometry" />
+          <mxGeometry x="2430" y="1290" width="320" height="78" as="geometry" />
         </mxCell>
         <mxCell id="edgeout" value="&lt;b&gt;输出 ② 推理拓扑&lt;/b&gt;&lt;br&gt;sigmoid → TOPO_THRESHOLD=0.705&lt;br&gt;&lt;font color=&quot;#78350f&quot;&gt;topo_scores → graph edges&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#172033;fontSize=11;spacing=6;" parent="1" vertex="1">
-          <mxGeometry x="3090" y="1320" width="270" height="78" as="geometry" />
+          <mxGeometry x="2890" y="1290" width="270" height="78" as="geometry" />
         </mxCell>
         <mxCell id="e_rgb" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#2563eb;strokeWidth=2;fontColor=#2563eb;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="rgb" target="l0" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -267,34 +267,34 @@
         <mxCell id="e_a_f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#0f766e;strokeWidth=1.5;fontColor=#0f766e;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="embedA" target="fuse" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1800" y="971" />
-              <mxPoint x="1800" y="1100" />
-              <mxPoint x="1820" y="1100" />
+              <mxPoint x="1600" y="941" />
+              <mxPoint x="1600" y="1070" />
+              <mxPoint x="1620" y="1070" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_b_f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#0f766e;strokeWidth=1.5;fontColor=#0f766e;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="embedB" target="fuse" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1800" y="1111" />
-              <mxPoint x="1820" y="1111" />
+              <mxPoint x="1600" y="1081" />
+              <mxPoint x="1620" y="1081" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_c_f" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#0f766e;strokeWidth=1.5;fontColor=#0f766e;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="embedC" target="fuse" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1800" y="1251" />
-              <mxPoint x="1800" y="1128" />
-              <mxPoint x="1820" y="1128" />
+              <mxPoint x="1600" y="1221" />
+              <mxPoint x="1600" y="1098" />
+              <mxPoint x="1620" y="1098" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_f_d" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#9333ea;strokeWidth=4;fontColor=#9333ea;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="fuse" target="decoder" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2210.06" y="1112.94" />
-              <mxPoint x="2210.06" y="693.06" />
+              <mxPoint x="2010.06" y="1082.94" />
+              <mxPoint x="2010.06" y="663.06" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -308,26 +308,26 @@
           <mxGeometry x="-0.3595" relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="2290" y="1128" />
-              <mxPoint x="2290" y="1130" />
-              <mxPoint x="2590" y="1130" />
-              <mxPoint x="2590" y="1180" />
+              <mxPoint x="2090" y="1098" />
+              <mxPoint x="2090" y="1100" />
+              <mxPoint x="2390" y="1100" />
+              <mxPoint x="2390" y="1150" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_m_s" value="cached scores" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#ea580c;strokeWidth=4;dashed=1;dashPattern=7 5;fontColor=#ea580c;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="mask" target="sampler" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2675" y="1030" />
-              <mxPoint x="2675" y="1030" />
+              <mxPoint x="2475" y="1000" />
+              <mxPoint x="2475" y="1000" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="e_g_s" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#ea580c;strokeWidth=2;fontColor=#ea580c;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="graph" target="sampler" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2550" y="1199" />
-              <mxPoint x="2550" y="1199" />
+              <mxPoint x="2350" y="1169" />
+              <mxPoint x="2350" y="1169" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -337,8 +337,8 @@
         <mxCell id="e_p_t" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#ea580c;strokeWidth=2;fontColor=#ea580c;fontSize=11;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="pairs" target="toponet" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2550" y="1360" />
-              <mxPoint x="2550" y="1359" />
+              <mxPoint x="2350" y="1330" />
+              <mxPoint x="2350" y="1329" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -346,10 +346,10 @@
           <mxGeometry x="-0.2832" relative="1" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="2675" y="982" />
-              <mxPoint x="2990.06" y="982" />
-              <mxPoint x="2990.06" y="1280" />
-              <mxPoint x="2790.06" y="1280" />
+              <mxPoint x="2475" y="952" />
+              <mxPoint x="2790.06" y="952" />
+              <mxPoint x="2790.06" y="1250" />
+              <mxPoint x="2590.06" y="1250" />
             </Array>
           </mxGeometry>
         </mxCell>
