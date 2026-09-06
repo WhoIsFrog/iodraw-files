@@ -826,10 +826,10 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-144" value="&lt;b&gt;L18 · Conv&lt;/b&gt;&lt;br&gt;128→128 · k3/s2&lt;br&gt;[B,128,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#123f63;strokeColor=#7fb2e0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="980" y="4872" width="340" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-146" value="&lt;b&gt;L21 · Concat&lt;/b&gt;&lt;br&gt;L20 + L10 = 384&lt;br&gt;[B,384,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#374a66;strokeColor=#c0d4f2;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-146" value="&lt;b&gt;L19 · Concat&lt;/b&gt;&lt;br&gt;L20 + L10 = 384&lt;br&gt;[B,384,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#374a66;strokeColor=#c0d4f2;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="980" y="4948" width="340" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-148" value="&lt;b&gt;L22 · C3k2 ★C&lt;/b&gt;&lt;br&gt;384→256 · 输出&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f4636;strokeColor=#53d6a0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=3.2;" vertex="1" parent="1">
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-148" value="&lt;b&gt;L20· C3k2 ★C&lt;/b&gt;&lt;br&gt;384→256 · 输出&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f4636;strokeColor=#53d6a0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=3.2;" vertex="1" parent="1">
           <mxGeometry x="980" y="5024" width="340" height="56" as="geometry" />
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-150" value="&lt;b&gt;L23 · 原生 Segment 头&lt;/b&gt;&lt;br&gt;检测+分割头 · 输入 [16,19,22]&lt;br&gt;self.layers[:-1] → 永不执行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#47202c;strokeColor=#e699ad;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;dashed=1;dashPattern=8 5;" vertex="1" parent="1">
