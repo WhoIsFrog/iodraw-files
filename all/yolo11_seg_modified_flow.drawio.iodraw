@@ -200,7 +200,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_44" value="lateral L4 (P3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" parent="1" source="L4" target="L10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="632" />
+              <mxPoint x="460" y="860" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e_45" value="lateral L2 (P2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" parent="1" source="L2" target="L13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -209,7 +214,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;" parent="1" source="L8" target="L19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="1010" />
+              <mxPoint x="1150" y="1010" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="txt_48" value="lateral L8 (C2PSA/P4)" style="text;html=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#a9c3e8;fontSize=9;fontStyle=0;fontFamily=Segoe UI,Microsoft YaHei;" parent="1" vertex="1">
           <mxGeometry x="397.8" y="937.5" width="125.2" height="15" as="geometry" />
