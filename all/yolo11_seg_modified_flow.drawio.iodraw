@@ -210,7 +210,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;" parent="1" source="L7" target="L18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="920" />
+              <mxPoint x="930" y="920" />
+              <mxPoint x="930" y="784" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="txt_46" value="lateral L7 (SPPF/P4)" style="text;html=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#a9c3e8;fontSize=9;fontStyle=0;fontFamily=Segoe UI,Microsoft YaHei;" parent="1" vertex="1">
           <mxGeometry x="403.4" y="861.5" width="119.6" height="15" as="geometry" />
