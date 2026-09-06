@@ -1024,6 +1024,16 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-205" value="P4/16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a996f5;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
           <mxGeometry x="1260" y="5027" width="54" height="17" as="geometry" />
         </mxCell>
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-206" value="concat 旁路 L4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="571.7" y="4410" />
+              <mxPoint x="571.7" y="4562" />
+            </Array>
+            <mxPoint x="490" y="4410" as="sourcePoint" />
+            <mxPoint x="610" y="4562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
