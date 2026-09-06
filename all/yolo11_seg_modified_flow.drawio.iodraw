@@ -230,16 +230,26 @@
           <mxGeometry x="397.8" y="937.5" width="125.2" height="15" as="geometry" />
         </mxCell>
         <mxCell id="segment" value="&lt;b&gt;Segment (Detect + Proto) · nc=10&lt;/b&gt;&lt;br&gt;输入: L14 (P2/4) + L17 (P3/8) + L20 (P4/16)&lt;br&gt;bbox/cls ×3 scale + mask coef(32) · Proto[256] → mask" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7a2140;strokeColor=#f0849c;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=3.2;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="528" width="470" height="436" as="geometry" />
+          <mxGeometry x="1510" y="501.5" width="470" height="436" as="geometry" />
         </mxCell>
         <mxCell id="e_49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#f2b269;strokeWidth=2.4;endArrow=block;endFill=1;" parent="1" source="L17" target="segment" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="708" />
+              <mxPoint x="1440" y="746" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="txt_50" value="Seg 输入 ★P3/8" style="text;html=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#f2b269;fontSize=9;fontStyle=0;fontFamily=Segoe UI,Microsoft YaHei;" parent="1" vertex="1">
           <mxGeometry x="1422.2" y="691.5" width="81.8" height="15" as="geometry" />
         </mxCell>
         <mxCell id="e_51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#f2b269;strokeWidth=2.4;endArrow=block;endFill=1;" parent="1" source="L20" target="segment" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="936" />
+              <mxPoint x="1440" y="746" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="txt_52" value="Seg 输入 ★P4/16" style="text;html=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#f2b269;fontSize=9;fontStyle=0;fontFamily=Segoe UI,Microsoft YaHei;" parent="1" vertex="1">
           <mxGeometry x="1416.6" y="919.5" width="87.4" height="15" as="geometry" />
@@ -247,8 +257,9 @@
         <mxCell id="e_53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#f2b269;strokeWidth=2.4;endArrow=block;endFill=1;" parent="1" source="L14" target="segment" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1440" y="556" />
-              <mxPoint x="1440" y="746" />
+              <mxPoint x="690" y="490" />
+              <mxPoint x="1440" y="490" />
+              <mxPoint x="1440" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
