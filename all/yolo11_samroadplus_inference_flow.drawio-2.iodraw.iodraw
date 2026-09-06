@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram id="yolo11-samroadplus-inference" name="YOLO11-SAMRoad++ inference flow (P-level)">
-    <mxGraphModel dx="1167" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3130" pageHeight="2614" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3130" pageHeight="2614" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -790,7 +790,7 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-117" value="P4/16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a996f5;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
           <mxGeometry x="340" y="4723" width="54" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-122" value="&lt;b&gt;L9 · SPPF&lt;/b&gt;&lt;br&gt;256→256&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40306b;strokeColor=#a996f5;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-122" value="&lt;b&gt;L7 · SPPF&lt;/b&gt;&lt;br&gt;256→256&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40306b;strokeColor=#a996f5;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="70" y="4948" width="330" height="56" as="geometry" />
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-124" value="&lt;b&gt;L10 · C2PSA&lt;/b&gt;&lt;br&gt;256→256&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6b2d4d;strokeColor=#ef97c0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
