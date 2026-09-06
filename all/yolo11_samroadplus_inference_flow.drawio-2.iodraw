@@ -923,8 +923,7 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-177" value="concat 旁路 L6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;exitX=0.998;exitY=0.384;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-124" target="JbszsYXgb4BtjFCxMDB5-128">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="399" y="5030" />
-              <mxPoint x="452" y="5030" />
+              <mxPoint x="452" y="5046" />
               <mxPoint x="452" y="4976" />
             </Array>
           </mxGeometry>
