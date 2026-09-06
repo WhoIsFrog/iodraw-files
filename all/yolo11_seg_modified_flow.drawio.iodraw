@@ -194,7 +194,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e_43" value="lateral L2 (P2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" parent="1" source="L2" target="L12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="480" />
+              <mxPoint x="470" y="556" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e_44" value="lateral L10 (P3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" parent="1" source="L10" target="L15" edge="1">
           <mxGeometry relative="1" as="geometry" />
