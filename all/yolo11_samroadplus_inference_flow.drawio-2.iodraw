@@ -691,13 +691,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-79" value="concat 旁路 L13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-30" target="JbszsYXgb4BtjFCxMDB5-40">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="3548" />
+              <mxPoint x="950" y="3396" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-24" target="JbszsYXgb4BtjFCxMDB5-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="263" y="3840" />
-              <mxPoint x="1178" y="3840" />
+              <mxPoint x="263" y="3770" />
+              <mxPoint x="950" y="3770" />
+              <mxPoint x="950" y="3624" />
             </Array>
           </mxGeometry>
         </mxCell>
