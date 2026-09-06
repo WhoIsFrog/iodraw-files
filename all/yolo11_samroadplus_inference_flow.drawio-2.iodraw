@@ -928,11 +928,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-178" value="concat 旁路 L4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-112" target="JbszsYXgb4BtjFCxMDB5-134">
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-178" value="concat 旁路 L4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-112" target="JbszsYXgb4BtjFCxMDB5-128">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="481.7" y="4596" />
-              <mxPoint x="481.7" y="4748" />
+              <mxPoint x="460" y="4596" />
+              <mxPoint x="460" y="4748" />
+              <mxPoint x="520" y="4748" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1028,9 +1029,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="4440" />
-              <mxPoint x="572" y="4440" />
-              <mxPoint x="572" y="4562" />
-              <mxPoint x="520" y="4562" />
+              <mxPoint x="500" y="4440" />
+              <mxPoint x="500" y="4748" />
             </Array>
             <mxPoint x="490" y="4410" as="sourcePoint" />
             <mxPoint x="610" y="4562" as="targetPoint" />
