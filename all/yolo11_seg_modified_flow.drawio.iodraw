@@ -208,7 +208,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e_45" value="lateral L2 (P2)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" parent="1" source="L2" target="L13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="480" />
+              <mxPoint x="480" y="632" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="e_46" value="lateral L11 (P3)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#a9c3e8;strokeWidth=1.7;endArrow=block;endFill=1;dashed=1;fontColor=#a9c3e8;fontSize=9;" parent="1" source="L11" target="L16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -240,7 +245,12 @@
           <mxGeometry x="1416.6" y="919.5" width="87.4" height="15" as="geometry" />
         </mxCell>
         <mxCell id="e_53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#f2b269;strokeWidth=2.4;endArrow=block;endFill=1;" parent="1" source="L14" target="segment" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="556" />
+              <mxPoint x="1440" y="746" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="txt_54" value="Seg 输入 ★P2/4 (绕 C 列上方)" style="text;html=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#f2b269;fontSize=9;fontStyle=0;fontFamily=Segoe UI,Microsoft YaHei;" parent="1" vertex="1">
           <mxGeometry x="1316.7" y="473.5" width="151.3" height="15" as="geometry" />
