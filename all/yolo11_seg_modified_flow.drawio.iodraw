@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram id="yolo11-seg-modified" name="YOLO11-seg modified flow (P-level)">
-    <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2460" pageHeight="1038" math="0" shadow="0">
+    <mxGraphModel dx="574" dy="309" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2460" pageHeight="1038" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,7 +227,7 @@
           <mxGeometry x="403.4" y="861.5" width="119.6" height="15" as="geometry" />
         </mxCell>
         <mxCell id="segment" value="&lt;b&gt;Segment (Detect + Proto) · nc=80&lt;/b&gt;&lt;br&gt;输入: L13 (P2/4) + L16 (P3/8) + L19 (P4/16)&lt;br&gt;bbox/cls ×3 scale + mask coef(32) · Proto[256] → mask" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7a2140;strokeColor=#f0849c;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=3.2;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="400.5" width="470" height="436" as="geometry" />
+          <mxGeometry x="1510" y="407.5" width="470" height="436" as="geometry" />
         </mxCell>
         <mxCell id="e_47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#f2b269;strokeWidth=2.4;endArrow=block;endFill=1;" parent="1" source="L16" target="segment" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -244,7 +244,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1420" y="860" />
-              <mxPoint x="1420" y="670" />
+              <mxPoint x="1420" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
