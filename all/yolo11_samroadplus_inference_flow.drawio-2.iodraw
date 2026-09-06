@@ -802,20 +802,11 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-126" value="&lt;b&gt;L11 · Upsample&lt;/b&gt;&lt;br&gt;×2 nearest · P5→P4&lt;br&gt;[B,256,32,32]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14505f;strokeColor=#69d2e6;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="520" y="5024" width="340" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-127" value="P4/16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a996f5;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="800" y="5027" width="54" height="17" as="geometry" />
-        </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-128" value="&lt;b&gt;L12 · Concat&lt;/b&gt;&lt;br&gt;L11 + L6 = 384&lt;br&gt;[B,384,32,32]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#374a66;strokeColor=#c0d4f2;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="520" y="4948" width="340" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-129" value="P4/16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a996f5;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="800" y="4951" width="54" height="17" as="geometry" />
-        </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-130" value="&lt;b&gt;L13 · C3k2&lt;/b&gt;&lt;br&gt;384→128&lt;br&gt;[B,128,32,32]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f4636;strokeColor=#53d6a0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="520" y="4872" width="340" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-131" value="P4/16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a996f5;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="800" y="4875" width="54" height="17" as="geometry" />
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-132" value="&lt;b&gt;L14 · Upsample&lt;/b&gt;&lt;br&gt;P4→P3 · ×2 nearest&lt;br&gt;[B,128,64,64]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14505f;strokeColor=#69d2e6;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="520" y="4796" width="340" height="56" as="geometry" />
