@@ -820,9 +820,6 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-138" value="&lt;b&gt;L17 · Conv&lt;/b&gt;&lt;br&gt;64→64 · k3/s2&lt;br&gt;[B,64,32,32]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#123f63;strokeColor=#7fb2e0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="980" y="4644" width="340" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-139" value="P4/16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a996f5;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="4647" width="54" height="17" as="geometry" />
-        </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-140" value="&lt;b&gt;L18 · Concat&lt;/b&gt;&lt;br&gt;L17 + L13 = 192&lt;br&gt;[B,192,32,32]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#374a66;strokeColor=#c0d4f2;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="980" y="4720" width="340" height="56" as="geometry" />
         </mxCell>
@@ -1023,6 +1020,9 @@
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-199" value="P2/4" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#69d2e6;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
           <mxGeometry x="800" y="4723" width="54" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-200" value="P3/8" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#54d6a0;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
+          <mxGeometry x="810" y="4885" width="54" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
