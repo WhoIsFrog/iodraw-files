@@ -793,7 +793,7 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-122" value="&lt;b&gt;L7 · SPPF&lt;/b&gt;&lt;br&gt;256→256&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#40306b;strokeColor=#a996f5;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="70" y="4948" width="330" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-124" value="&lt;b&gt;L10 · C2PSA&lt;/b&gt;&lt;br&gt;256→256&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6b2d4d;strokeColor=#ef97c0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-124" value="&lt;b&gt;L8 · C2PSA&lt;/b&gt;&lt;br&gt;256→256&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6b2d4d;strokeColor=#ef97c0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
           <mxGeometry x="70" y="5024" width="330" height="56" as="geometry" />
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-126" value="&lt;b&gt;L11 · Upsample&lt;/b&gt;&lt;br&gt;×2 nearest · P5→P4&lt;br&gt;[B,256,32,32]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#14505f;strokeColor=#69d2e6;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
