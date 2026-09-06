@@ -230,13 +230,23 @@
           <mxGeometry x="1510" y="452" width="470" height="436" as="geometry" />
         </mxCell>
         <mxCell id="e_47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#f2b269;strokeWidth=2.4;endArrow=block;endFill=1;" parent="1" source="L16" target="segment" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="632" />
+              <mxPoint x="1420" y="670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="txt_48" value="Seg 输入 ★P3/8" style="text;html=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#f2b269;fontSize=9;fontStyle=0;fontFamily=Segoe UI,Microsoft YaHei;" parent="1" vertex="1">
           <mxGeometry x="1422.2" y="615.5" width="81.8" height="15" as="geometry" />
         </mxCell>
         <mxCell id="e_49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#f2b269;strokeWidth=2.4;endArrow=block;endFill=1;" parent="1" source="L19" target="segment" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="860" />
+              <mxPoint x="1420" y="670" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="txt_50" value="Seg 输入 ★P4/16" style="text;html=0;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontColor=#f2b269;fontSize=9;fontStyle=0;fontFamily=Segoe UI,Microsoft YaHei;" parent="1" vertex="1">
           <mxGeometry x="1416.6" y="843.5" width="87.4" height="15" as="geometry" />
@@ -245,8 +255,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="690" y="410" />
-              <mxPoint x="1430" y="410" />
-              <mxPoint x="1430" y="670" />
+              <mxPoint x="1420" y="410" />
+              <mxPoint x="1420" y="670" />
             </Array>
           </mxGeometry>
         </mxCell>
