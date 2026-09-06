@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram id="yolo11-samroadplus-inference" name="YOLO11-SAMRoad++ inference flow (P-level)">
-    <mxGraphModel dx="1434" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3130" pageHeight="2614" math="0" shadow="0">
+    <mxGraphModel dx="1181" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3130" pageHeight="2614" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -790,9 +790,6 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-117" value="P4/16" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a996f5;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
           <mxGeometry x="340" y="4723" width="54" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-118" value="&lt;b&gt;L7 · Conv&lt;/b&gt;&lt;br&gt;128→256 · k3/s2&lt;br&gt;[B,256,16,16]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#123f63;strokeColor=#7fb2e0;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" vertex="1" parent="1">
-          <mxGeometry x="70" y="4796" width="330" height="56" as="geometry" />
-        </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-119" value="P5/32" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0b269;strokeColor=none;fontColor=#0a1524;fontSize=9;fontStyle=1;fontFamily=Consolas;" vertex="1" parent="1">
           <mxGeometry x="340" y="4799" width="54" height="17" as="geometry" />
         </mxCell>
@@ -916,11 +913,15 @@
         <mxCell id="JbszsYXgb4BtjFCxMDB5-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9fc6ee;strokeWidth=2.0;endArrow=block;endFill=1;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-114" target="JbszsYXgb4BtjFCxMDB5-116">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9fc6ee;strokeWidth=2.0;endArrow=block;endFill=1;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-116" target="JbszsYXgb4BtjFCxMDB5-118">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9fc6ee;strokeWidth=2.0;endArrow=block;endFill=1;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-116">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="4796" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="JbszsYXgb4BtjFCxMDB5-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9fc6ee;strokeWidth=2.0;endArrow=block;endFill=1;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-118" target="JbszsYXgb4BtjFCxMDB5-120">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="JbszsYXgb4BtjFCxMDB5-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9fc6ee;strokeWidth=2.0;endArrow=block;endFill=1;" edge="1" parent="1" target="JbszsYXgb4BtjFCxMDB5-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="4852" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="JbszsYXgb4BtjFCxMDB5-162" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#9fc6ee;strokeWidth=2.0;endArrow=block;endFill=1;" edge="1" parent="1" source="JbszsYXgb4BtjFCxMDB5-120" target="JbszsYXgb4BtjFCxMDB5-122">
           <mxGeometry relative="1" as="geometry" />
