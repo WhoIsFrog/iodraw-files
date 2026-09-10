@@ -1,11 +1,11 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17">
   <diagram id="yolo11-seg-modified" name="YOLO11-seg modified flow (P-level)">
-    <mxGraphModel dx="3464" dy="1655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2460" pageHeight="1114" math="0" shadow="0">
+    <mxGraphModel dx="2691" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2460" pageHeight="1114" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pnl_1" value="YOLO11-seg modified(v2): backbone L0-L8(含 C2PSA, 无 P5) + FPN 上采样至 P2 + PAN 回 P3/P4&lt;br&gt;&lt;span style=&quot;font-size:10px;color:#6d8db0&quot;&gt;左: Backbone 下采样至 /16(SPPF→C2PSA)    中: FPN L9-L14 上采样并融合 P3/P2(图中自下而上)    右: PAN L15-L20 下采样回 P3/P4; Segment 接 L14(P2/4) L17(P3/8) L20(P4/16) · nc=10&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#3f5a80;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=4;fontColor=#d6e6fb;fontSize=13;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="-470" y="-270" width="1330" height="912" as="geometry" />
+          <mxGeometry x="-130" y="-100" width="1330" height="912" as="geometry" />
         </mxCell>
         <mxCell id="rgb" value="&lt;b&gt;RGB 输入&lt;/b&gt;&lt;br&gt;[B,3,640,640]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#263b5a;strokeColor=#8ab4dd;fontColor=#ffffff;fontSize=11;fontFamily=Segoe UI;strokeWidth=1.8;" parent="1" vertex="1">
           <mxGeometry x="70" y="170" width="330" height="44" as="geometry" />
